@@ -34,8 +34,12 @@ pip install faker
 
 ### Sample Output :
 
-sensor_id	timestamp	temperature	humidity	location	sensor_type
-1007	2025-03-28 08:15:22	34.5	72.3	BuildingA_Floor1	TypeA
++---------+-------------------+-----------+--------+-------------------+-----------+
+|sensor_id|timestamp          |temperature|humidity|location           |sensor_type|
++---------+-------------------+-----------+--------+-------------------+-----------+
+|1007     |2025-03-28 08:15:22|34.5       |72.3    |BuildingA_Floor1   |TypeA      |
+...
+
 
 
 ## Task2: Filtering & Simple Aggregations
